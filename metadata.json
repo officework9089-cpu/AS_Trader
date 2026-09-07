@@ -1,0 +1,8 @@
+{
+  "name": "ASComm Portal",
+  "description": "Business management platform for ASComm to manage product listings, customer financial calculations, supplier tracking, and document exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

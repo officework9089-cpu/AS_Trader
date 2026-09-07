@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "role": "admin",
+      "password": "$2b$10$FR2ERKFDm978u961Y4cHreIFsPJRBB6dipe82/vvLOtM9//0g0kTC",
+      "email": "admin@ascomm.com",
+      "status": "active",
+      "lastLogin": "2026-08-04T23:51:40.468Z",
+      "customerName": "admin"
+    },
+    {
+      "id": "u2",
+      "username": "john_doe",
+      "role": "customer",
+      "customerName": "John Doe",
+      "password": "$2b$10$FR2ERKFDm978u961Y4cHreZ8uILXCvR1xaehdRPKYHF8hzYzmaVUm",
+      "email": "john.doe@gmail.com",
+      "status": "active",
+      "lastLogin": "2026-08-04T21:11:17.741Z"
+    },
+    {
+      "id": "u3",
+      "username": "alice_smith",
+      "role": "customer",
+      "customerName": "Alice Smith",
+      "password": "$2b$10$FR2ERKFDm978u961Y4cHreZ8uILXCvR1xaehdRPKYHF8hzYzmaVUm",
+      "email": "alice.smith@outlook.com",
+      "status": "active",
+      "lastLogin": "2026-08-04T21:11:35.347Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1",
+      "customerId": "u2",
+      "customerName": "John Doe",
+      "productName": "Premium Cotton Shirts",
+      "unitPrice": 15,
+      "weight": 0.25,
+      "qty": 100,
+      "totalWeight": 25,
+      "lineTotal": 375,
+      "paidAmount": 200,
+      "remainingAmount": 175,
+      "updatedAt": "2026-06-20T10:00:00.000Z"
+    },
+    {
+      "id": "o2",
+      "customerId": "u2",
+      "customerName": "John Doe",
+      "productName": "Denim Jackets",
+      "unitPrice": 35,
+      "weight": 0.8,
+      "qty": 50,
+      "totalWeight": 40,
+      "lineTotal": 1400,
+      "paidAmount": 1400,
+      "remainingAmount": 0,
+      "updatedAt": "2026-06-21T11:30:00.000Z"
+    },
+    {
+      "id": "o3",
+      "customerId": "u3",
+      "customerName": "Alice Smith",
+      "productName": "Silk Scarves",
+      "unitPrice": 45,
+      "weight": 0.05,
+      "qty": 200,
+      "totalWeight": 10,
+      "lineTotal": 450,
+      "paidAmount": 150,
+      "remainingAmount": 300,
+      "updatedAt": "2026-06-24T14:15:00.000Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "s1",
+      "supplierName": "John Sourcing Ltd",
+      "itemType": "Shirts",
+      "quantity": "150pcs",
+      "costPrice": 8.5,
+      "sourcingWeight": 37.5,
+      "dateReceived": "2026-06-15"
+    },
+    {
+      "id": "s2",
+      "supplierName": "David Textiles",
+      "itemType": "Denim Jackets",
+      "quantity": "60pcs",
+      "costPrice": 18,
+      "sourcingWeight": 48,
+      "dateReceived": "2026-06-18"
+    },
+    {
+      "id": "s3",
+      "supplierName": "Varanasi Silk Weaver",
+      "itemType": "Silk Scarves",
+      "quantity": "250pcs",
+      "costPrice": 22,
+      "sourcingWeight": 12.5,
+      "dateReceived": "2026-06-22"
+    }
+  ]
+}
