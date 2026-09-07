@@ -7,7 +7,7 @@ import CustomerPortal from "./components/CustomerPortal";
 import SupplierTracking from "./components/SupplierTracking";
 import UserManagement from "./components/UserManagement";
 import { Lock, User as UserIcon, Loader2, AlertCircle } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/Logo.png";
 
 interface UserProfile {
   id: string;
